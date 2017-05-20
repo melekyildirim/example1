@@ -5,7 +5,14 @@ public class Person {
 	private String surName;
 	private Integer age;
 	private Float weight;
+	private Float height;
 	
+	public Float getHeight() {
+		return height;
+	}
+	public void setHeight(Float height) {
+		this.height = height;
+	}
 	public Float getWeight() {
 		return weight;
 	}
