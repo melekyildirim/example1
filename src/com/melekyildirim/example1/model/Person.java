@@ -4,6 +4,14 @@ public class Person {
 	private String name;
 	private String surName;
 	private Integer age;
+	private Float weight;
+	
+	public Float getWeight() {
+		return weight;
+	}
+	public void setWeight(Float weight) {
+		this.weight = weight;
+	}
 	public String getName() {
 		return name;
 	}
